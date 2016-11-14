@@ -5,7 +5,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.freeman_smith.tthinteractivestory.MainActivity">
+    tools:context="com.freeman_smith.tthinteractivestory.MainActivity"
+    android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
     <ImageView
         android:layout_width="match_parent"
@@ -14,5 +15,25 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/titleImageView"
-        android:adjustViewBounds="true" />
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:text="Start Your Adventure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/startButton" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_above="@+id/startButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nameEditText"
+        android:hint="Enter your name to begin" />
 </RelativeLayout>
