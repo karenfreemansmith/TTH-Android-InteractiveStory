@@ -28,10 +28,11 @@ public class MainActivity extends AppCompatActivity {
                 }
         });
 
-        private void startStory(String name) {
-            Intent intent = new Intent(this, StoryActivity.class);
-            intent.putExtra("name", name);
-            startActivity(intent);
+
     }
+    private void startStory(String name) {
+        Intent intent = new Intent(this, StoryActivity.class);
+        intent.putExtra("name", name);
+        startActivity(intent);
     }
 }
