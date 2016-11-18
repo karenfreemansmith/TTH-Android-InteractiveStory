@@ -1,4 +1,4 @@
-package com.freeman_smith.tthinteractivestory;
+package com.freeman_smith.tthinteractivestory.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+
+import com.freeman_smith.tthinteractivestory.R;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mNameField;

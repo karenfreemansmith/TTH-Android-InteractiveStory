@@ -1,15 +1,15 @@
-package com.freeman_smith.tthinteractivestory;
+package com.freeman_smith.tthinteractivestory.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Button;
-import android.widget.EditText;
 
-import butterknife.Bind;
+import com.freeman_smith.tthinteractivestory.R;
+import com.freeman_smith.tthinteractivestory.model.Page;
 
 public class StoryActivity extends AppCompatActivity {
+
     public static final String TAG = StoryActivity.class.getSimpleName();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class StoryActivity extends AppCompatActivity {
             name = "Friend";
         }
         Log.d(TAG, name);
+
 
     }
 
