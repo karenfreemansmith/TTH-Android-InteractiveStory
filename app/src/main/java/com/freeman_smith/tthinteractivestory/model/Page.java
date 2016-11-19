@@ -17,6 +17,13 @@ public class Page {
         mChoice2 = choice2;
     }
 
+    public Page(int imageId, String text) {
+        mImageId = imageId;
+        mText = text;
+        mChoice1 = null;
+        mChoice2 = null;
+    }
+
     public int getImageId() {
         return mImageId;
     }
