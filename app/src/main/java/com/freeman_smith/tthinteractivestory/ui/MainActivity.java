@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         mStartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    String name = mNameField.getText().toString();
-                    startStory(name);
+            String name = mNameField.getText().toString();
+            startStory(name);
                 }
         });
 
